@@ -4,12 +4,14 @@
 }
 
 body {
-    background-color: #54a0ff;
+    background-color: #f1f2f6;
+    margin: 0;
 }
 
 #mainTitle {
-    text-align: center;
-    margin-top: 30px;
+    padding-top: 60px;
+    font-family: Montserrat;
+    font-weight: 300;
 }
 
 #submit {
@@ -25,15 +27,44 @@ body {
     border: 0;
 }
 
-.container {
+#location {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.weatherContainer {
+    margin-top: 75px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+.weatherBlock {
+    width: 275px;
+    height: 275px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 3px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #95afc0;
+}
+
+.date {
+    font-size: 30px;
+}
+
+.temperature {
+    font-size: 30px;
+}
+
 form {
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -41,4 +72,15 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+header {
+    height: 40vh;
+    background-color: #54a0ff;
+}
+
+section {
+    height: 50vh;
+}
+
+
 
