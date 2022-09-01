@@ -25,8 +25,6 @@ function searchWeather(e) {
 	}
 
 	fetch(url).then((response) => response.json()).then((data) => {
-		console.log(data);
-
 		if (data.message !== 'city not found') {
 			locationLabel.innerHTML = data.city.name;
 
