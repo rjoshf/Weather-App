@@ -68,11 +68,6 @@ form {
     margin-bottom: 40px;
 }
 
-h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 header {
     height: 40vh;
     background-color: #54a0ff;
@@ -82,5 +77,32 @@ section {
     height: 50vh;
 }
 
+@media(max-width: 1300px){
+    .weatherContainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 900px){
+    .weatherBlock{
+        width: 240px;
+        height: 240px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    .temperature {
+        font-size: 25px;
+    }
+    #mainTitle {
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 600px){
+    #mainTitle {
+        font-size: 50px;
+    }
+}
 
 
